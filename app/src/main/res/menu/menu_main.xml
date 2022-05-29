@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_help"
+        android:title="說明"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_contacts"
+        android:title="聯繫人"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Camera"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_expense"
+        android:title="消費紀錄"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_transactions"
+        android:title="交易紀錄" />
+    <item
+        android:id="@+id/action_service"
+        android:title="啟動伺服器" />
+    <item
+        android:id="@+id/action_chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/action_work"
+        android:title="Work" />
+
+</menu>
